@@ -1,0 +1,14 @@
+project:
+  name: big_12
+
+files:
+  excel: input/excel/football_data.xlsx
+  powerpoint: input/powerpoint/template.pptx
+  output: output/updated_report.pptx
+
+operations:
+  - name: read_excel_data
+    
+    source:
+      sheet: Big12
+      range: A1:F17
