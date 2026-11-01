@@ -1,0 +1,96 @@
+
+# =====================================
+# Python virtual environments
+# =====================================
+.venv/
+venv/
+env/
+ENV/
+
+# =====================================
+# Python cache / compiled files
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =====================================
+# Python packaging
+# =====================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =====================================
+# Environment variables / secrets
+# =====================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# =====================================
+# VS Code
+# =====================================
+.vscode/
+!.vscode/extensions.json
+
+# =====================================
+# Jupyter notebooks
+# =====================================
+.ipynb_checkpoints/
+
+# =====================================
+# Logs
+# =====================================
+logs/
+*.log
+
+# =====================================
+# Temporary files
+# =====================================
+*.tmp
+*.bak
+~$*
+
+# =====================================
+# Excel temporary / lock files
+# =====================================
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+
+# =====================================
+# Project input files
+# Uncomment if files contain confidential data
+# =====================================
+# input/*.xlsx
+# input/*.xlsm
+# input/*.pptx
+
+# =====================================
+# Generated PowerPoint / Excel outputs
+# =====================================
+output/
+generated/
+*.generated.pptx
+
+# =====================================
+# Operating system files
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================
+# Test / coverage files
+# =====================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
